@@ -1,0 +1,10 @@
+NUMBER	24
+NAME	dinosaur
+PATH	data/dinosaur
+IMAGE_FILE_NAME_LENGTH	2
+IMAGE_FILE_SUFFIX	jpg
+CAMERA	dinosaur-camera.txt
+CONTOUR	dinosaur-contour.txt
+XRANGE	200	512
+YRANGE	800	200
+ZRANGE	-16	420

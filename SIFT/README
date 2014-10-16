@@ -1,0 +1,14 @@
+folder structure
+
+./report : report for this project
+./sample : sample outputs
+./match : a naive program for key matching
+
+
+to compile this program, Qt must be installed and correctly configurated.
+
+procedures to compile:
+	1. qmake (or qmake-qt4)
+	2. make 
+
+any problem, please contact peihongguo@gmail.com

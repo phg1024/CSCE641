@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="loadscene">resources/document-open-folder.png</file>
+        <file alias="render">resources/10balls2.png</file>
+    </qresource>
+</RCC>

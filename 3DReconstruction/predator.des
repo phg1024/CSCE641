@@ -1,0 +1,10 @@
+NUMBER	24
+NAME	predator
+PATH	data/predator
+IMAGE_FILE_NAME_LENGTH	2
+IMAGE_FILE_SUFFIX	jpg
+CAMERA	predator-camera.txt
+CONTOUR	predator-contour.txt
+XRANGE	100	740
+YRANGE	100	740
+ZRANGE	0	640

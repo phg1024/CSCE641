@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="interaction">resources/development-gtk.png</file>
+        <file alias="replay">resources/arrow-right-3.png</file>
+        <file alias="trace">resources/gnujuggler.png</file>
+    </qresource>
+</RCC>

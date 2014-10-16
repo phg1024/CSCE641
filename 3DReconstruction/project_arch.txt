@@ -1,0 +1,16 @@
+Core Components:
+    Visual hull reconstructor
+    Octree-based visual hull recontructor
+    Voxel coloring reconstructor
+
+Data Structures:
+    Images
+    Voxel array model
+
+Interface:
+    3D Model Viewer
+    Control Panel
+    Help Dialog
+
+Utility:
+    Matrix

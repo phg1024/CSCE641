@@ -1,0 +1,46 @@
+Manual Qt library is required to build the system. To compile the source code, please 
+make sure Qt 4 is correctly installed and configurated. The source code is tested ONLY 
+in 64 bit Linux system.
+
+Compile Procedures: 
+1. tar xvf package.tar.gz 
+2. cd package / 
+3. qmake (or qmake - qt4) 
+4. make 
+
+Usage: 
+The program provides a GUI for convenience. 
+************************************** NOTICE *********************************** 
+A consistent set of description file and image sequence, together with camera 
+parameters file and contour file, is needed for the program to execute correctly. 
+
+A typical setting is as follows:
+./alien.des
+./data/alien/0000.jpg
+./data/alien/0001.jpg
+...
+./data/alien/0023.jpg
+./data/alien/camera.txt
+./data/alien/contour.txt
+********************************************************************************* 
+
+The description file for the above setting is included in the submission. 
+1. To reconstruct a model, first select the reconstructor and specify all the 
+parameters needed for that reconstructor, then load the description file (.des 
+file) of the model from the "File" menu. 
+
+2. To view a reconstructed model, simply load the model file (.vxl file) from the 
+"File" menu. Several reconstructed models are provided in the model folder, 
+which can be loaded into the system directly. 
+
+3. Mouse interaction is allowed in the model viewing region. Simply drag the model 
+to change view point. Use the wheel to zoom in / out. 
+
+4. To view the grids used for reconstructor, press key w; to view the model view
+ a naive lighting, press space bar. 
+
+5. It is critical to choose a correct background threshold in order for voxel 
+coloring algorithm to work properly. Typically, the value for dark object with a 
+bright background can be set lower, e. g. 100 - 150; in case the model contains 
+bright region, it is highly recommended that the background threshold set above 
+200. Usually a few try - and - error are needed to obtain satisfactory results.

@@ -1,0 +1,10 @@
+NUMBER	24
+NAME	alien
+PATH	data/alien
+IMAGE_FILE_NAME_LENGTH	4
+IMAGE_FILE_SUFFIX	jpg
+CAMERA	alien-camera.txt
+CONTOUR	alien-contour.txt
+XRANGE	-32	256
+YRANGE	0	256
+ZRANGE	-32	256
